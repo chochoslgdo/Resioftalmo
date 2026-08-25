@@ -1,1 +1,0 @@
-let xp=Number(localStorage.getItem("resioftalmo_xp")||0);function setXP(n){xp=n;localStorage.setItem("resioftalmo_xp",xp);document.querySelectorAll(".xp").forEach(e=>e.textContent=xp+" XP")}function goHome(){location.href="index.html"}document.addEventListener("DOMContentLoaded",()=>setXP(xp));
